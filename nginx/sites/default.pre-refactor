@@ -10,7 +10,7 @@ server {
      ssl_certificate_key /etc/nginx/ssl/hangar_local.key;
 
     server_name hangar.local;
-    root /var/www/flightschool-hangar/public;
+    root /var/www/public;
     index index.php index.html index.htm;
 
     location / {
